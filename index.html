@@ -1,0 +1,23 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class = "scorecard">
+            <div>
+                <h3>Liverpool</h3>
+                <h4 class="score" id="liv-score">0</h4>
+                <button onclick="goal1()" class="btn">Goal</button>
+            </div>
+            <div>
+                <h3>Chelsea</h3>
+                <h4 class="score" id="chel-score">0</h4>
+                <button onclick="goal2()" class="btn" >Goal</button>
+            </div>
+        </div>
+        <div id = "reset">
+            <button onclick="resetGame()" class="btn">Reset</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
